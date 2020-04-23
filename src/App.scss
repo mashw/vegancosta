@@ -1,0 +1,35 @@
+@import './styles/header.scss';
+
+* {
+  //border: 1px solid rgba(24, 255, 16, 0.856);
+}
+
+body {
+  background-image: url('./img/seamlesswaves.jpg');
+
+}
+
+/**
+ * Limit the container in
+ * width for big screens
+ **/
+ .container {
+	//width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'BrandonGrotesque-Regular';
+  src: url('./fonts/BrandonGrotesque-Regular.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'BrandonGrotesque-Bold';
+  src: url('./fonts/BrandonGrotesque-Bold.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'Clarendon';
+  src: url('./fonts/ClarendonRegular.woff') format('woff')
+}

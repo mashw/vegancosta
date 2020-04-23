@@ -1,0 +1,56 @@
+/**
+ * By using display: flex
+ * Logo and nav are in 2 cols
+ * align-items make them
+ * vertically centered
+ * justify-content distribute
+ * horizontal spaces around
+ * and flex-wrap break the
+ * things in two lines in
+ * small screens
+ */
+ .header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #6D1F37;
+}
+
+.main-nav {
+  padding: 0;
+}
+
+.main-nav ul {
+  //border: 1px solid hotpink;
+  margin: 1em 0 .5em 0;
+  padding: 0;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+  padding: .5em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFBF9;
+  font-family: "BrandonGrotesque-Regular";
+  font-size: 1rem;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-nav a:active {
+  transform: translateY(2px);
+}
+
+@media (min-width: 960px) {
+	.main-header .container {
+		justify-content: space-between;
+	}
+}
+
