@@ -5,7 +5,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <h1 className="mh-logo">
-          <img src={require('../img/logo.svg')} width="170" height="95" alt="Vegan Costa" />
+          <img src={require('../imgs/logo.svg')} width="170" height="95" alt="Vegan Costa" />
         </h1>
         <nav>
           <ul className="main-nav">

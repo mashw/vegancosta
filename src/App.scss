@@ -1,22 +1,35 @@
 @import './styles/header.scss';
+@import './styles/searchbox.scss';
+@import './styles/card.scss';
 
 * {
   //border: 1px solid rgba(24, 255, 16, 0.856);
 }
 
 body {
-  background-image: url('./img/seamlesswaves.jpg');
-
+background-image: url('imgs/cubes.jpg');
+background-size: 500px;
+//border: 1px solid red;
 }
 
-/**
- * Limit the container in
- * width for big screens
- **/
- .container {
+.container {
 	//width: 960px;
 	max-width: 100%;
 	margin: 0 auto;
+}
+
+.main-content {
+  z-index: 0;
+  width: 960px;
+  max-width: 100%;
+  //background-color: #FFFBF9;
+  min-height: 90vh;
+  //border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
 }
 
 @font-face {

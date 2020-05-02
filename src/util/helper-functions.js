@@ -1,0 +1,16 @@
+export const snapshotToArray = (snapshot) => {
+    var returnArr = [];
+
+    snapshot.forEach(function(childSnapshot) {
+        var item = childSnapshot.val();
+        item.key = childSnapshot.key;
+        returnArr.push(item);
+    });
+
+    return returnArr;
+};
+
+export const sortByVegan = (a, b) => {
+  const sortOrder = ["YES", "NO"];
+  return sortOrder.indexOf(a.vegan) - sortOrder.indexOf(b.vegan);
+}
