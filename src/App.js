@@ -6,6 +6,7 @@ import { sortByVegan } from './util/helper-functions';
 
 
 import Header from './components/header';
+import { Footer } from './components/footer';
 import Searchbox from './components/searchbox';
 import { data } from './data/data';
 import { Card } from './components/card';
@@ -36,19 +37,21 @@ function App() {
         );
       };
 
-      filteredArr.push(filterByValue(data, searchTerm));
+      if (searchTerm.length > 1) {
+        filteredArr.push(filterByValue(data, searchTerm));
 
-      filteredArr[0].sort((a, b) => a.description.localeCompare(b.description));
-
-      filteredArr[0].sort(sortByVegan);
+        filteredArr[0].sort((a, b) => a.description.localeCompare(b.description));
   
-      for(var i = 0; i < filteredArr[0].length; i++) {
-        elements.push(<Card value={filteredArr[0][i]} key={uuid()} />);
+        filteredArr[0].sort(sortByVegan);
+    
+        for(var i = 0; i < filteredArr[0].length; i++) {
+          elements.push(<Card value={filteredArr[0][i]} key={uuid()} indexKey={i}/>);
+        }
+  
+        setCards(elements);
       }
 
-      setCards(elements);
-
-      if (searchTerm === "") {
+      else if (searchTerm === "") {
         filteredArr = [];
         elements = [];
         setCards([]);
@@ -63,16 +66,18 @@ function App() {
           getResults = { getResults }
         />
       <div className="card-container">
-        {trail.map(({ x, height, ...rest }, index) => (
+      {cards}
+        {/* {trail.map(({ x, height, ...rest }, index) => (
           <animated.div
             key={cards[index]}
             className="trails-text"
             style={{ ...rest, transform: x.interpolate(x => `translate3d(0,${x}px,0)`) }}>
             <animated.div style={{ height }}>{cards[index]}</animated.div>
           </animated.div>
-        ))}
+        ))} */}
       </div>
 		</div>
+    <Footer />
     </div>
 	);
 }
