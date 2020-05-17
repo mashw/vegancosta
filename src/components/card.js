@@ -40,7 +40,16 @@ export const Card = (props) => {
 	const downArrow = "\u25BC";
 	const upArrow = "\u25B2";
 
-	const [infoState, setInfoState] = useState(false)
+  const [infoState, setInfoState] = useState(false);
+  
+  const getNutStatus = (props) => {
+    if (props.value.peanuts === "YES" || props.value.lupin === "YES" || props.value.treenuts === "YES") {
+      return true;
+    }
+    else {
+      return false;
+    }
+  };
 
 	return (
 		<div className="card" id={props.indexKey}>
@@ -67,10 +76,17 @@ export const Card = (props) => {
 						</div>
 
 						<div className="tags-wrapper">
-							<span className="vegan-tag">VEGAN</span>
-							<span className="vegetarian-tag">VEGETARIAN</span>
-							<span className="nuts-tag">NUTS</span>
-							<span className="gluten-tag">GLUTEN</span>
+							
+              {props.value.vegans === "YES" || props.value["cc-vegans"] === "YES"? <span className={`vegan-tag`}>VEGAN</span> : null}
+
+              {props.value.vegetarian === "YES" ? <span className="vegetarian-tag">VEGETARIAN</span> : null}
+
+              {getNutStatus(props) === true ? <span className="nuts-tag">NUTS</span> : null}
+
+              {props.value.wheat === "YES" ? <span className="gluten-tag">GLUTEN</span> : null}
+							
+							
+							
 						</div>
 					</div>
 				</div>
@@ -93,8 +109,8 @@ export const Card = (props) => {
 					</span>
 				</div>
 			</div>
-			<div className="nutritional-wrapper" onClick={() => expandDiv(props.indexKey)}>
-				<div className="more-info-header">
+			<div className="nutritional-wrapper noSelect" onClick={() => expandDiv(props.indexKey)}>
+				<div className="more-info-header noSelect">
 					<h4>Nutritional Info {infoState === false ? downArrow : upArrow }</h4>
 				</div>
 				<div className="table-wrapper">

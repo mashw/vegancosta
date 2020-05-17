@@ -112,6 +112,11 @@
   background-color: #FF8A48;
 }
 
+.disabled {
+  text-decoration: line-through;
+  background-color: rgb(173, 173, 173);
+}
+
 .info-bottom {
   //border: 1px solid green;
   height: 45%;
@@ -175,6 +180,7 @@
   align-items: center;
   overflow: hidden;
   cursor: pointer;
+  outline: none;
 
   .more-info-header {
     //border: 1px solid blue;
@@ -184,7 +190,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     h4 {     
       height: 100%; 
     margin: 0;
@@ -243,6 +248,15 @@
     position: absolute;
     width: 48px;
   }
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .arrow-tab.red {
