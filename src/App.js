@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.scss';
 import uuid from 'react-uuid';
-import { sortByVegan } from './util/helper-functions';
+import { sortByVegan, sortByCrossContamination } from './util/helper-functions';
 
 import Header from './components/header';
 import { Footer } from './components/footer';
@@ -36,7 +36,8 @@ function App() {
       filteredArr.push(filterByValue(data, searchTerm));
   
       filteredArr[0].sort((a, b) => a.description.localeCompare(b.description));
-  
+      
+      //filteredArr[0].sort(sortByCrossContamination);
       filteredArr[0].sort(sortByVegan);
   
       for (var i = 0; i < filteredArr[0].length; i++) {

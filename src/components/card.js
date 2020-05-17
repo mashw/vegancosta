@@ -77,7 +77,7 @@ export const Card = (props) => {
 
 						<div className="tags-wrapper">
 							
-              {props.value.vegans === "YES" || props.value["cc-vegans"] === "YES"? <span className={`vegan-tag`}>VEGAN</span> : null}
+              {(props.value["vegan-status"] === "YES" || props.value["vegan-status"] === "CC")? <span className={`vegan-tag`}>VEGAN</span> : null}
 
               {props.value.vegetarian === "YES" ? <span className="vegetarian-tag">VEGETARIAN</span> : null}
 

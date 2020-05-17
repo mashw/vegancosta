@@ -13,15 +13,15 @@ export const snapshotToArray = (snapshot) => {
 };
 
 export const sortByVegan = (a, b) => {
-  const sortOrder = ["YES", "NO"];
-  return sortOrder.indexOf(a.vegans) - sortOrder.indexOf(b.vegans);
+  const sortOrder = ["YES", "CC", "NO"];
+  return sortOrder.indexOf(a["vegan-status"]) - sortOrder.indexOf(b["vegan-status"]);
 };
 
 export const getProductStatus = (props) => {
   if (props.value["vegans"] === "YES") {
     return "is vegan."
   }
-  else if (props.value["vegans"] === "NO" && props.value["cc-vegan"] === "YES") {
+  else if (props.value["vegans"] !== "YES" && props.value["cc-vegan"] === "YES") {
     return "contains a cross-contamination risk of animal ingredients."
   } else {
     return "is not vegan."
