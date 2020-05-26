@@ -5,234 +5,31 @@
 
 .card {
   min-width: 100%;
-	outline: 1px solid #e1e1e0;
+  width: 100%;
+	border: 1px solid #c9c9c9;
 	border-radius: 5px;
-  margin-top: 20px;
   background-color: #f5f3ef;
-  height: 160px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  height: 190px;
+  //box-shadow: 0 2px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   color: #222;
   transition: all 0.2s ease-in-out;
   font-family: BrandonGrotesque-Regular;
+  margin-bottom: 20px;
 }
 
-.info-wrapper {
-  outline: 1px solid red;
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  height: 140px;
-}
-
-.info-top {
-  border: 1px solid blue;
-  height: 42px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  padding-top: 5px;
-  margin: 0;
-
-  .product-icon {
-    width: 20%;
-    text-align: center;
-    //color: #222;
-  }
-
-  .product-title {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-
-    div {
-      //height: 50%;
-      //border: 1px solid pink;
-      //width: 100%;
-    }
-
-    .title {
-      //border: 1px solid red;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      white-space: nowrap;
-      //width: 250px;
-      //height: 50px;
-
-      h3 {
-        margin: 0;
-        padding: 0;
-      }
-    }
-  }
-
-  .tags-wrapper {
-    //border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 100%;
-    font-size: 0.6rem;
-    margin-top: 2px;
-    span {
-      width: 23%;
-      //border: 1px solid red;
-      margin-right: 5px;
-      text-align: center;
-      font-weight: bold;
-      color: #222;
-      border-radius: 2px;
-    }
-  }
-}
-
-.vegan-tag {
-  background-color: #C3FF64;
-}
-
-.vegetarian-tag {
-  background-color: #FFEB78;
-}
-
-.nuts-tag {
-  background-color: #FF6856;
-}
-
-.gluten-tag {
-  background-color: #FF8A48;
-}
-
-.disabled {
-  text-decoration: line-through;
-  background-color: rgb(173, 173, 173);
-}
-
-.info-bottom {
-  border: 1px solid green;
-  height: 90px;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  margin-left: 20px;
-  font-size: 1rem;
-  text-overflow: ellipsis;
-
-  .status-wrapper {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    min-height: 40px;
-
-    .status-icon {  
-      width: 10%;
-      text-align: right;
-    }
-
-    .status-text {
-      width: 90%;
-      margin-left: 10px;
-    }
-  }
-}
-
-.notes-wrapper {
-  //border: 1px solid blue;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 40%;    
-}
-
-.notes-icon {
-  width: 10%;
-  text-align: right;
-}
-
-.notes-text {
-  width: 90%;
-  margin-left: 10px;
-}
-
-.nutritional-wrapper {
-  border: 2px solid hotpink;
-  color: #eee;
-  background-color: rgba(2, 2, 2, 0.212);
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-items: center;
-  overflow: hidden;
-  cursor: pointer;
-  outline: none;
-
-  .more-info-header {
-    //border: 1px solid blue;
-    height: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    h4 {     
-      height: 100%; 
-    margin: 0;
-    padding: 0;
-    font-size: 0.8rem;
-    margin-top: 0px;
-    }
-  }
-}
-
-.table-wrapper {
-  width: 60%;
-  height: 100%;
-  justify-content: center;
-
-
-  table {
-    width: 100%;
-    font-size: 0.85rem;
-
-    th, td {
-      border: 1px solid #222;
-    }
-
-    th {
-      font-size: 0.9rem;
-    }
-  }
-}
-
-.grow {
-  height: 290px;
-}
-
-.shrink {
-  height: 150px;
-}
 
 .arrow-tab {
   //box-shadow: 0 0 2px 1px rgba(0,0,0,0.4);
-  height: 60px;
-  right: -40px;
+  height: 81px;
+  right: -54px;
   position: absolute;
-  top: -30px;
-  width: 60px;  
+  top: -45px;
+  width: 81px;  
   transform: rotate(45deg);
   box-sizing: content-box;
   box-sizing: border-box;
@@ -248,26 +45,210 @@
   }
 }
 
-.noSelect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 
 .arrow-tab.red {
-  background-color: #FF6856;
+  background-color: #CB3332;
 }
 
 .arrow-tab.yellow {
-  background-color: #FFEB78;
+  background-color: #FFC000;
 }
 
 .arrow-tab.green {
-  background-color: #C3FF64;
+  background-color: #87CE49;
 }
+
+
+// .bg-vegan {
+//   background-color: green;
+// }
+
+// .bg-not-vegan {
+//   background-color: red;
+// }
+
+// .bg-cc-vegan {
+//   background-color: yellow;
+// }
+
+// .bg-nutrition {
+//   background-color: blue;
+// }
+
+
+
+.main-card-info {
+  height: 170px;
+  //border: 2px solid hotpink;
+  width: 100%;
+}
+
+.product-title-wrapper {
+  border-bottom: 3px solid #6D1F37;    
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  margin-bottom: 5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-title {
+  //border: 2px solid red;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 90%;
+  font-size: 1.3rem;
+}
+
+
+.tags-wrapper {
+  height: 15px;
+  //border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  span {
+    width: 23%;
+    //border: 1px solid red;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #222;
+    border-radius: 2px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+.vegan-tag {
+background-color: #C3FF64;
+}
+
+.vegetarian-tag {
+background-color: #FFEB78;
+}
+
+.nuts-tag {
+background-color: #FF6856;
+}
+
+.gluten-tag {
+background-color: #FF8A48;
+}
+
+.disabled {
+text-decoration: line-through;
+background-color: rgb(173, 173, 173);
+}
+}
+
+.status-wrapper {
+  height: 30px;
+  //border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+  padding-top: 3px;
+  h3 {
+    font-size: 1.3rem;
+    margin-left: 10px;
+  }
+}
+
+.notes-wrapper {
+  height: 35px;
+  margin-left: 60px;
+  margin-right: 60px;
+  //border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  span {
+    line-height: 15px;
+  }
+}
+
+
+.nutritional-wrapper {
+  //border: 2px solid hotpink;
+  color: #eee;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  max-height: 19px;
+  z-index: 10;
+  border-left: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9;
+
+  .more-info-header {
+    background-color: #6D1F37;
+    height: 21px;
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    h4 {     
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    margin-top: 0px;
+    font-weight: 400;
+    }
+  }
+}
+
+.table-wrapper {  
+  width: 60%;
+  height: 100%;
+  justify-content: center;
+  color: black;
+
+
+  table {
+    //border: 1px solid hotpink;
+    width: 100%;
+    font-size: 0.85rem;
+
+    th, td {
+      border: 1px solid #222;
+    }
+
+    th {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.grow {
+  height: 335px;
+}
+
+.shrink {
+  height: 190px;
+}
+
+
+
+
+
 
 @media only screen and (min-width: 800px) {
   .card-container {
@@ -279,4 +260,14 @@
   .card-container {
     width: 60%;
   }
+}
+
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

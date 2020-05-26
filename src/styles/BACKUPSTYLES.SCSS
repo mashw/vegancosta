@@ -1,0 +1,174 @@
+.info-wrapper {
+  //outline: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 140px;
+}
+
+.info-top {
+  //border: 1px solid blue;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  padding-top: 5px;
+  margin: 0;
+
+  .product-icon {
+    width: 20%;
+    text-align: center;
+    //color: #222;
+  }
+
+  .product-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    //border: 1px solid hotpink;
+    
+    .title {
+      //border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap;
+      width: 100%;
+      //width: 250px;
+      //height: 50px;
+
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  .tags-wrapper {
+    //border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 0.6rem;
+    margin-top: 2px;
+    span {
+      width: 23%;
+      //border: 1px solid red;
+      margin-right: 5px;
+      text-align: center;
+      font-weight: bold;
+      color: #222;
+      border-radius: 2px;
+    }
+  }
+}
+
+.vegan-tag {
+  background-color: #C3FF64;
+}
+
+.vegetarian-tag {
+  background-color: #FFEB78;
+}
+
+.nuts-tag {
+  background-color: #FF6856;
+}
+
+.gluten-tag {
+  background-color: #FF8A48;
+}
+
+.disabled {
+  text-decoration: line-through;
+  background-color: rgb(173, 173, 173);
+}
+
+.info-bottom {
+  //border: 1px solid green;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-left: 20px;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+
+  .status-wrapper {
+    //border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 40px;
+
+    .status-icon {  
+      width: 10%;
+      text-align: right;
+    }
+
+    .status-text {
+      width: 90%;
+      margin-left: 10px;
+    }
+  }
+}
+
+.notes-wrapper {
+  //border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40%;    
+}
+
+.notes-icon {
+  width: 10%;
+  text-align: right;
+}
+
+.notes-text {
+  width: 90%;
+  margin-left: 10px;
+}
+
+.arrow-tab {
+  //box-shadow: 0 0 2px 1px rgba(0,0,0,0.4);
+  height: 70px;
+  right: -46px;
+  position: absolute;
+  top: -35px;
+  width: 70px;  
+  transform: rotate(45deg);
+  box-sizing: content-box;
+  box-sizing: border-box;
+
+  span {
+    color: #f5f5f5;
+    font-family: sans-serif;
+    font-size: 1em;
+    left: 17px;
+    top: 47px;
+    position: absolute;
+    width: 48px;
+  }
+}
+
+
+.arrow-tab.red {
+  background-color: #FF6856;
+}
+
+.arrow-tab.yellow {
+  background-color: #FFEB78;
+}
+
+.arrow-tab.green {
+  background-color: #C3FF64;
+}

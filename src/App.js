@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.scss';
 import uuid from 'react-uuid';
-import { sortByVegan, sortByCrossContamination } from './util/helper-functions';
+import { sortByVegan } from './util/helper-functions';
 
 import Header from './components/header';
 import { Footer } from './components/footer';
@@ -11,51 +11,48 @@ import { Card } from './components/card';
 
 function App() {
 	const [ cards, setCards ] = useState([]);
-  let timeout;
+	let timeout;
 
-  const debounce = () => {
-    clearTimeout(timeout);
-    setTimeout(() => {
-      getResults();
-    },1000);
-  };
+	const debounce = () => {
+		clearTimeout(timeout);
+		setTimeout(() => {
+			getResults();
+		}, 1500);
+	};
 
 	const getResults = () => {
 		const searchTerm = document.getElementsByClassName('search')[0].value;
 		let filteredArr = [];
-    let elements = [];
+		let elements = [];
 
-    if (searchTerm.length > 2) {
-      const filterByValue = (array, string) => {
-        return array.filter((x) =>
-          // Object.keys(x).some(k => x[k].toString().toLowerCase().includes(string.toLowerCase()))
-          Object.keys(x).some((k) => x[k].toString().toLowerCase().includes(string.toLowerCase()))
-        );
-      };
-  
-      filteredArr.push(filterByValue(data, searchTerm));
-  
-      filteredArr[0].sort((a, b) => a.description.localeCompare(b.description));
-      
-      //filteredArr[0].sort(sortByCrossContamination);
-      filteredArr[0].sort(sortByVegan);
-  
-      for (var i = 0; i < filteredArr[0].length; i++) {
-        elements.push(<Card value={filteredArr[0][i]} key={uuid()} indexKey={i} />);
-      }
-  
-      setCards(elements);
+		if (searchTerm.length > 3) {
+			const filterByValue = (array, string) => {
+				return array.filter((x) =>
+					// Object.keys(x).some(k => x[k].toString().toLowerCase().includes(string.toLowerCase()))
+					Object.keys(x).some((k) => x[k].toString().toLowerCase().includes(string.toLowerCase()))
+				);
+			};
+
+			filteredArr.push(filterByValue(data, searchTerm));
+
+			filteredArr[0].sort((a, b) => a.description.localeCompare(b.description));
+
+			filteredArr[0].sort(sortByVegan);
+
+			for (var i = 0; i < filteredArr[0].length; i++) {
+				elements.push(<Card value={filteredArr[0][i]} key={uuid()} indexKey={i} />);
+			}
+
+			setCards(elements);
     }
-
-
-
+    
 		if (searchTerm === '') {
 			filteredArr = [];
 			elements = [];
 			setCards([]);
 		}
-	};
-
+  };
+  
 	return (
 		<div className="Vegan Costa Coffee">
 			<Header />
