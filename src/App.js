@@ -13,11 +13,11 @@ function App() {
 	const [ cards, setCards ] = useState([]);
 	let timeout;
 
-	const debounce = () => {
+	const debounce = (e) => {
 		clearTimeout(timeout);
 		setTimeout(() => {
 			getResults();
-		}, 1500);
+		}, 1400);
 	};
 
 	const getResults = () => {
@@ -25,15 +25,28 @@ function App() {
 		let filteredArr = [];
 		let elements = [];
 
-		if (searchTerm.length > 3) {
-			const filterByValue = (array, string) => {
-				return array.filter((x) =>
-					// Object.keys(x).some(k => x[k].toString().toLowerCase().includes(string.toLowerCase()))
-					Object.keys(x).some((k) => x[k].toString().toLowerCase().includes(string.toLowerCase()))
-				);
-			};
+		if (searchTerm.length > 0) {
+      
+      const filterByValue = data.filter(function(obj) {
+        // if (obj["description"].toLowerCase().includes(searchTerm.toLowerCase()) ||
+        // obj["category"].toLowerCase().includes(searchTerm.toLowerCase())) {
+        //   return true;
+        // }
 
-			filteredArr.push(filterByValue(data, searchTerm));
+        const terms = searchTerm.toLowerCase().split(' ');
+        let flag = true;
+        for (var i=0; i < terms.length; i++) {
+          if (!obj["description"].toLowerCase().includes(terms[i])) {
+            flag = false;
+          }
+        }
+        if (flag) {
+          return true;
+        }
+        
+      });
+
+			filteredArr.push(filterByValue);
 
 			filteredArr[0].sort((a, b) => a.description.localeCompare(b.description));
 

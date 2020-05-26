@@ -105,12 +105,12 @@ export const Card = (props) => {
 		<div className={`card`} id={props.indexKey}>
 			<div
 				className={
-					props.value['vegans'] === 'NO' ? props.value['cc-vegan'] === 'YES' ? (
+					props.value["vegan-status"] !== 'NO' ? props.value["vegan-status"] === 'CC' ? (
 						'arrow-tab yellow'
 					) : (
-						'arrow-tab red'
-					) : (
 						'arrow-tab green'
+					) : (
+						'arrow-tab red'
 					)
 				}
 			/>
