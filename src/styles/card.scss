@@ -3,6 +3,7 @@
   //margin-top: -50px;
 }
 
+
 .card {
   min-width: 100%;
   width: 100%;
@@ -20,7 +21,10 @@
   transition: all 0.2s ease-in-out;
   font-family: BrandonGrotesque-Regular;
   margin-bottom: 20px;
-}
+  }
+
+
+
 
 
 .arrow-tab {
@@ -33,6 +37,7 @@
   transform: rotate(45deg);
   box-sizing: content-box;
   box-sizing: border-box;
+  z-index: 2;
 
   span {
     color: #f5f5f5;
@@ -59,21 +64,58 @@
 }
 
 
-// .bg-vegan {
-//   background-color: green;
-// }
+.breakfast {
+  background-image: url(../imgs/bg-icons/breakfast.svg);
+}
+.cakes {
+  background-image: url(../imgs/bg-icons/cakes.svg);
+}
+.coffee {
+  background-image: url(../imgs/bg-icons/coffee.svg);
+}
+.colddrinks {
+  background-image: url(../imgs/bg-icons/colddrinks.svg);
+}
+.extras {
+  background-image: url(../imgs/bg-icons/extras.svg);
+}
+.fruit {
+  background-image: url(../imgs/bg-icons/fruit.svg);
+}
+.hotchocolate {
+  background-image: url(../imgs/bg-icons/hotchocolate.svg);
+}
+.hotdrink {
+  background-image: url(../imgs/bg-icons/hotdrink.svg);
+}
+.hotmeals {
+  background-image: url(../imgs/bg-icons/hotmeals.svg);
+}
+.panini {
+  background-image: url(../imgs/bg-icons/panini.svg);
+}
+.salads {
+  background-image: url(../imgs/bg-icons/salads.svg);
+}
+.sandwiches {
+  background-image: url(../imgs/bg-icons/sandwiches.svg);
+}
+.snacks {
+  background-image: url(../imgs/bg-icons/snacks.svg);
+}
+.sweetpastries {
+  background-image: url(../imgs/bg-icons/sweetpastries.svg);
+}
+.tea {
+  background-image: url(../imgs/bg-icons/tea.svg);
+}
+.toasties {
+  background-image: url(../imgs/bg-icons/toasties.svg);
+}
+.savourypastries {
+  background-image: url(../imgs/bg-icons/savourypastries.svg);
+}
 
-// .bg-not-vegan {
-//   background-color: red;
-// }
-
-// .bg-cc-vegan {
-//   background-color: yellow;
-// }
-
-// .bg-nutrition {
-//   background-color: blue;
-// }
 
 
 
@@ -81,7 +123,12 @@
   height: 170px;
   //border: 2px solid hotpink;
   width: 100%;
+  z-index: 1;
+  //background-image: ffffffffff;
+  background-size: 20%;
+  background-repeat: repeat 0 0;
 }
+
 
 .product-title-wrapper {
   border-bottom: 3px solid #6D1F37;    
@@ -113,10 +160,12 @@
   align-items: center;
   justify-content: center;
   font-size: 0.85rem;
+  z-index: 3;
   span {
     width: 23%;
     //border: 1px solid red;
     margin-right: 5px;
+    z-index: 3;
     text-align: center;
     font-weight: bold;
     color: #222;
@@ -143,6 +192,15 @@ background-color: #FF8A48;
 text-decoration: line-through;
 background-color: rgb(173, 173, 173);
 }
+}
+
+.status-notes-main-wrapper {
+  display: flex;
+  height: 85px;
+  //border: 1px solid hotpink;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .status-wrapper {
@@ -172,6 +230,7 @@ background-color: rgb(173, 173, 173);
   align-items: center;
   justify-content: center;
   margin-bottom: 5px;
+  text-align: center;
   span {
     line-height: 15px;
   }
@@ -191,9 +250,9 @@ background-color: rgb(173, 173, 173);
   cursor: pointer;
   outline: none;
   max-height: 19px;
-  z-index: 10;
   border-left: 1px solid #c9c9c9;
   border-right: 1px solid #c9c9c9;
+  z-index: 3;
 
   .more-info-header {
     background-color: #6D1F37;

@@ -1,71 +1,145 @@
 .searchbox {
-    border: 1px solid #E1E1E0;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
-    min-height: 250px;
-    height: auto;
-    background-color: #F5F3EF;
-    margin-top: -30px;
-    margin-bottom: 20px;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    h1 {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        width: 90%;
-        color: #6d1f37;
-        font-size: 2rem;
-      }
+	border: 1px solid #e1e1e0;
+	border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 95%;
+	min-height: 250px;
+	height: auto;
+	background-color: #f5f3ef;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	//border: 1px solid red;
+	h1 {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		width: 90%;
+		color: #6d1f37;
+		font-size: 2rem;
+		//border: 1px solid blue;
+	}
 }
 
 .search-form {
-    width: 90%;
-    height: auto;
-    margin-top: -35px;
-    padding-bottom: 10px;
-    //border: 1px solid hotpink;
-    //border-radius: 40px;
-    text-align: center;
+	width: 90%;
+	height: auto;
+	//border: 1px solid hotpink;
+	//border-radius: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
 
-    input[type=text] {
-        box-sizing: border-box;
-        border: 2px solid rgb(143, 143, 143);
-        background-color: #FFFBF9;
-        //background-color: rgb(182, 72, 17);
-        border-radius: 20px;
-        padding: 0 15px 0 15px;
-        width: 85%;
-        height: 40px;
-        max-width: 500px;
-        font-size: 1rem;
-        font-family: "BrandonGrotesque-Regular";
-    }
-    input[type=text]:focus {
-        outline: none;
-    }
-    input[type=text]:active {
-      border: 2px solid rgb(143, 143, 143);
-    }
-    button {
-        box-sizing: border-box;
-        width: 15%;
-        height: 40px;
-        background-color: #6D1F37;
-        border: none;
-        margin-top: -5px;
-        border-radius: 0 20px 20px 0;
-        vertical-align: middle;
-        text-align: center;
-        color: #FFFBF9;
+	input[type=text] {
+		box-sizing: border-box;
+		border: 2px solid rgb(143, 143, 143);
+		background-color: #fffbf9;
+		margin-top: 20px;
+		//border: 1px solid red;
+		//background-color: rgb(182, 72, 17);
+		border-radius: 20px;
+		padding: 0 15px 0 15px;
+		width: 85%;
+		height: 40px;
+		max-width: 500px;
+		font-size: 1rem;
+		font-family: "BrandonGrotesque-Regular";
+	}
+	input[type=text]:focus {
+		outline: none;
+	}
+	input[type=text]:active {
+		border: 2px solid rgb(143, 143, 143);
+	}
 
-        img {
-            height: 65%;
-            width: 65%;
+	.category-text {
+		color: #6d1f37;
+		font-family: "BrandonGrotesque-Regular";
+		font-weight: bold;
+	}
+
+	.filter-buttons-wrapper {
+		margin-top: -15px;
+		width: 60%;
+		//border: 1px solid red;
+		display: flex;
+		flex: row;
+		justify-content: space-evenly;
+
+		button.filter {
+            -webkit-transition: all 0s ease-out;
+            -moz-transition: all 0s ease-out;
+            -o-transition: all 0s ease-out;
+            -ms-transition: all 0s ease-out;
+            transition: all 0s ease-out;
+            height: 30px;
+            display: block;
+            font-size: 14px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            padding: 4px 20px 0;
+            margin: 10px auto;
+            position: relative;
+            cursor: pointer;
+            border: none;
+            outline: none;
         }
-    }
-}
+        
+        button.filter {
+			color: eee;
+			font-family: "BrandonGrotesque-Regular";
+			font-weight: bold;
+        }
+	
+        button.filter:active {
+            top: 3px;
+            border: none;
+        }    
+	   
+		.hot-drinks {
+			background-color: rgba(16, 166, 130, 1);
+			box-shadow: 1px 1px 0 rgba(14, 140, 111, 1),
+						2px 2px 0 rgba(14, 140, 111, 1),
+						3px 3px 0 rgba(14, 140, 111, 1),
+						4px 4px 0 rgba(14, 140, 111, 1);
+		}
 
+		.cold-drinks {
+			background-color: rgba(255, 82, 143, 1);
+			box-shadow: 1px 1px 0 rgba(181, 58, 101, 1),
+						2px 2px 0 rgba(181, 58, 101, 1),
+						3px 3px 0 rgba(181, 58, 101, 1),
+						4px 4px 0 rgba(181, 58, 101, 1);
+		}
+
+		.cakes {
+			background-color: rgb(141, 160, 218);
+			box-shadow: 1px 1px 0 rgba(96, 89, 147, 1),
+						2px 2px 0 rgba(96, 89, 147, 1),
+						3px 3px 0 rgba(96, 89, 147, 1),
+						4px 4px 0 rgba(96, 89, 147, 1);
+		}
+
+		.food {
+			background-color: rgba(207, 18, 63, 1);
+			box-shadow: 1px 1px 0 rgba(153, 14, 46, 1),
+						2px 2px 0 rgba(153, 14, 46, 1),
+						3px 3px 0 rgba(153, 14, 46, 1),
+						4px 4px 0 rgba(153, 14, 46, 1);
+		}
+
+		
+		.custom-drinks {
+			background-color: rgba(129, 47, 148, 1);
+			box-shadow: 1px 1px 0 rgba(94, 34, 107, 1),
+						2px 2px 0 rgba(94, 34, 107, 1),
+						3px 3px 0 rgba(94, 34, 107, 1),
+						4px 4px 0 rgba(94, 34, 107, 1);
+		}
+	}
+}

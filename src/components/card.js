@@ -7,7 +7,10 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCookieBite, faInfoCircle, faCheck, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 
+import { coffee } from '../imgs/bg-icons/coffee.svg';
+
 library.add(faCookieBite, faInfoCircle, faCheck, faTimesCircle);
+
 
 export const Card = (props) => {
 	const { fontSize, ref } = useFitText();
@@ -78,30 +81,29 @@ export const Card = (props) => {
     if (props.value["vegan-status"] === "CC") {
       return (
         //if product is cc-vegan
-        <span>This product is vegan but carries a cross-contamination risk.  {props.value["notes"] ? props.value["notes"] : null}</span>
+        <span>{props.value["notes"] ? props.value["notes"] : null}</span>
       )
     }
     else if (props.value["vegan-status"] === "YES") {      
       return (
         //if product is true vegan
-        <span>This product is confirmed vegan.  {props.value["notes"] ? props.value["notes"] : null}</span>
+        <span>{props.value["notes"] ? props.value["notes"] : null}</span>
       )
     }
     else if (props.value["vegan-status"] === "NO") {
       return(
         //if product is not vegan
-        <span>This product is confirmed not vegan.  {props.value["notes"] ? props.value["notes"] : null}</span>
+        <span>{props.value["notes"] ? props.value["notes"] : null}</span>
       )
     }
   };
 
-	//const containerWidth = document.getElementsByClassName('product-title-wrapper')[0].getBoundingClientRect().width;
-	//const zoomFactor = containerWidth / titleWidth;
-	//   if (productTitleWidth < containerWidth) {
-	//     return document.getElementsByClassName('product-title')[0].style = "color:blue";
-	//   }
+  const getCardCategory = () => {
+    return props.value["category"].replace(/\s/g, '').toLowerCase();
+  }
 
 	return (
+    <div className="card-bg">
 		<div className={`card`} id={props.indexKey}>
 			<div
 				className={
@@ -115,7 +117,7 @@ export const Card = (props) => {
 				}
 			/>
 
-			<div className="main-card-info">
+  		<div className={`main-card-info ${getCardCategory()}`}>
 				<div className="product-title-wrapper">
 					<div className="product-title">
 					{props.value.description}
@@ -133,12 +135,16 @@ export const Card = (props) => {
 
 					{props.value.wheat === 'YES' ? <span className="gluten-tag">GLUTEN</span> : null}
 				</div>
+				<div className="status-notes-main-wrapper">
 				<div className="status-wrapper">
 					{getVeganStatus()}
 				</div>
-				<div className="notes-wrapper">
+				{getProductNotes().length > 0 ? <div className="notes-wrapper">
 					{getProductNotes()}
+				</div> : null}
+				
 				</div>
+				
 			</div>
 			<div className="nutritional-wrapper noSelect" onClick={() => expandDiv(props.indexKey)}>
 				<div className="more-info-header noSelect">
@@ -185,6 +191,7 @@ export const Card = (props) => {
 				</div>
 			</div>
 		</div>
+    </div>
 	);
 };
 

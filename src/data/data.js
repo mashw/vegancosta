@@ -3015,7 +3015,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Wraps",
+    "category": "Sandwiches",
     "description": "TOMATO & MOZZARELLA WRAP",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -3060,7 +3060,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Wraps",
+    "category": "Sandwiches",
     "description": "ROAST CHICKEN FAJITA WRAP",
     "vegetarians": "NO",
     "vegans": "NO",
@@ -3105,7 +3105,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Wraps",
+    "category": "Sandwiches",
     "description": "BRITISH CHICKEN & BACON CAESAR TORTILLA WRAP",
     "vegetarians": "NO",
     "vegans": "NO",
@@ -4950,7 +4950,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Sweet Patries",
+    "category": "Sweet Pastries",
     "description": "ALMOND CROISSANT (60080)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -4995,7 +4995,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Sweet Patries",
+    "category": "Sweet Pastries",
     "description": "BUTTER CROISSANT (60081)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5040,7 +5040,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Sweet Patries",
+    "category": "Sweet Pastries",
     "description": "BUTTER CROISSANT (60725)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5085,7 +5085,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Sweet Patries",
+    "category": "Sweet Pastries",
     "description": "CHOCOLATE TWIST (60079)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5130,7 +5130,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Sweet Patries",
+    "category": "Sweet Pastries",
     "description": "CHOCOLATE TWIST\n(60727/61611F)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5175,7 +5175,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Sweet Patries",
+    "category": "Sweet Pastries",
     "description": "PAIN AUX RAISINS (60542)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5220,7 +5220,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Sweet Patries",
+    "category": "Sweet Pastries",
     "description": "PAIN AUX RAISINS \n(60728/61609F)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5265,7 +5265,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Sweet Patries",
+    "category": "Sweet Pastries",
     "description": "VEGAN STRAWBERRY CROISSANT",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -5310,7 +5310,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Sweet Patries",
+    "category": "Sweet Pastries",
     "description": "PASTEL DE NATA (POSH CUSTARD\nTART)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5355,7 +5355,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Savoury Patries",
+    "category": "Savoury Pastries",
     "description": "CHEESE TWIST",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5400,7 +5400,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Savoury Patries",
+    "category": "Savoury Pastries",
     "description": "SAUSAGE ROLL",
     "vegetarians": "NO",
     "vegans": "NO",
@@ -5670,7 +5670,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Sweet Pastries",
     "description": "ALMOND CROISSANT (10000131)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5715,7 +5715,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Sweet Pastries",
     "description": "PLAIN BUTTER CROISSANT (61608)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5760,7 +5760,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Sweet Pastries",
     "description": "CHOCOLATE & HAZELNUT CROISSANT",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5805,7 +5805,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Sandwiches",
     "description": "HALF BAGUETTE",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -5850,7 +5850,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Sandwiches",
     "description": "HAM & CHEDDAR CHEESE BAGUETTE",
     "vegetarians": "NO",
     "vegans": "NO",
@@ -5895,7 +5895,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Sandwiches",
     "description": "MOZZARELLA AND TOMATO BAGUETTE",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -5940,7 +5940,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Sandwiches",
     "description": "TUNA AND CUCUMBER BAGUETTE",
     "vegetarians": "NO",
     "vegans": "NO",
@@ -5985,7 +5985,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Cakes",
     "description": "CHOCOLATEY  DONUT",
     "vegetarians": "NO",
     "vegans": "NO",
@@ -6030,7 +6030,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Cakes",
     "description": "PINEAPPLE & COCONUT DONUT",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -6075,7 +6075,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Cakes",
     "description": "NEW YORK CHEESECAKE",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -6120,7 +6120,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Cakes",
     "description": "GLAZED APPLE TART",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -6165,7 +6165,7 @@ export const data = [
     "notes": "Gelatine in glaze."
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Snacks",
     "description": "BAKE OFF CHOCOLATE CHUNK COOKIE",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -6210,7 +6210,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Snacks",
     "description": "ALL BUTTER CHOCOLATE CHIP COOKIE PUCK - BAKE OFF",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -6255,7 +6255,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Selected Stores Only",
+    "category": "Sweet Pastries",
     "description": "CUP CROISSANT WITH NUTELLA",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -6571,7 +6571,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MACCHIATO - soya milk",
+    "description": "MACCHIATO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -6616,7 +6616,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MACCHIATO - coconut milk",
+    "description": "MACCHIATO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -6661,7 +6661,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MACCHIATO - almond milk",
+    "description": "MACCHIATO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -6706,7 +6706,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MACCHIATO - oat milk",
+    "description": "MACCHIATO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -7021,7 +7021,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CORTADO - WHOLE MILK ",
+    "description": "CORTADO - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7066,7 +7066,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CORTADO - SEMI-SKIMMED MILK ",
+    "description": "CORTADO - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7111,7 +7111,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CORTADO - SKIMMED MILK ",
+    "description": "CORTADO - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7156,7 +7156,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CORTADO - LACTO-FREE MILK DRINK ",
+    "description": "CORTADO - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7201,7 +7201,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CORTADO - soya milk ",
+    "description": "CORTADO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -7246,7 +7246,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CORTADO - coconut milk ",
+    "description": "CORTADO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -7291,7 +7291,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CORTADO - almond milk ",
+    "description": "CORTADO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -7336,7 +7336,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CORTADO - oat milk ",
+    "description": "CORTADO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -7381,7 +7381,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MOCHA CORTADO - WHOLE MILK ",
+    "description": "MOCHA CORTADO - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7426,7 +7426,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MOCHA CORTADO - SEMI SKIMMED MILK ",
+    "description": "MOCHA CORTADO - SEMI SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7471,7 +7471,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MOCHA CORTADO - SKIMMED MILK ",
+    "description": "MOCHA CORTADO - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7516,7 +7516,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MOCHA CORTADO - LACTOFREE SEMI SKIMMED ",
+    "description": "MOCHA CORTADO - LACTOFREE SEMI SKIMMED",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7561,7 +7561,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MOCHA CORTADO - soya milk ",
+    "description": "MOCHA CORTADO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7602,12 +7602,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-
-    "description": "MOCHA CORTADO - coconut milk ",
+    "description": "MOCHA CORTADO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7648,11 +7647,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-    "description": "MOCHA CORTADO - almond milk ",
+    "description": "MOCHA CORTADO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7693,11 +7692,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-    "description": "MOCHA CORTADO - oat milk ",
+    "description": "MOCHA CORTADO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -7738,11 +7737,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-    "description": "CARAMEL CORTADO - WHOLE MILK ",
+    "description": "CARAMEL CORTADO - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7787,7 +7786,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CARAMEL CORTADO - SEMI-SKIMMED MILK ",
+    "description": "CARAMEL CORTADO - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7832,7 +7831,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CARAMEL CORTADO - SKIMMED MILK ",
+    "description": "CARAMEL CORTADO - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7877,7 +7876,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CARAMEL CORTADO - LACTO-FREE MILK DRINK ",
+    "description": "CARAMEL CORTADO - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -7922,7 +7921,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CARAMEL CORTADO - soya milk ",
+    "description": "CARAMEL CORTADO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -7967,7 +7966,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CARAMEL CORTADO - coconut milk ",
+    "description": "CARAMEL CORTADO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -8012,7 +8011,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CARAMEL CORTADO - almond milk ",
+    "description": "CARAMEL CORTADO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -8057,7 +8056,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CARAMEL CORTADO -  oat milk ",
+    "description": "CARAMEL CORTADO -  OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -8102,7 +8101,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "AMERICANO ",
+    "description": "AMERICANO",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -8192,7 +8191,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "PREMIUM FILTER COFFEE ",
+    "description": "PREMIUM FILTER COFFEE",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -8237,7 +8236,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "LATTE - SEMI-SKIMMED MILK  ",
+    "description": "LATTE - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8282,7 +8281,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "LATTE - SKIMMED MILK  ",
+    "description": "LATTE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8327,7 +8326,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "LATTE - WHOLE MILK  ",
+    "description": "LATTE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8372,7 +8371,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "LATTE - LACTO-FREE MILK DRINK  ",
+    "description": "LATTE - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8417,7 +8416,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "LATTE - soya milk  ",
+    "description": "LATTE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -8462,7 +8461,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "LATTE - coconut milk  ",
+    "description": "LATTE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -8507,7 +8506,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "LATTE - almond milk  ",
+    "description": "LATTE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -8552,7 +8551,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "LATTE - oat milk  ",
+    "description": "LATTE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -8597,7 +8596,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SALTED CARAMEL LATTE - SEMI-SKIMMED MILK  ",
+    "description": "SALTED CARAMEL LATTE - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8642,7 +8641,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SALTED CARAMEL LATTE - SKIMMED MILK  ",
+    "description": "SALTED CARAMEL LATTE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8687,7 +8686,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SALTED CARAMEL LATTE - WHOLE MILK  ",
+    "description": "SALTED CARAMEL LATTE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8732,7 +8731,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SALTED CARAMEL LATTE - LACTO-FREE MILK DRINK  ",
+    "description": "SALTED CARAMEL LATTE - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8777,7 +8776,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SALTED CARAMEL LATTE - soya milk  ",
+    "description": "SALTED CARAMEL LATTE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8822,7 +8821,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SALTED CARAMEL LATTE - coconut milk  ",
+    "description": "SALTED CARAMEL LATTE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8867,7 +8866,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SALTED CARAMEL LATTE - almond milk  ",
+    "description": "SALTED CARAMEL LATTE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -8912,7 +8911,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SALTED CARAMEL LATTE - oat milk ",
+    "description": "SALTED CARAMEL LATTE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -8957,7 +8956,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CAPPUCCINO - SEMI- SKIMMED MILK ",
+    "description": "CAPPUCCINO - SEMI- SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9002,7 +9001,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CAPPUCCINO - SKIMMED MILK ",
+    "description": "CAPPUCCINO - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9047,7 +9046,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CAPPUCCINO - WHOLE MILK ",
+    "description": "CAPPUCCINO - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9092,7 +9091,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CAPPUCCINO - LACTO- FREE MILK DRINK ",
+    "description": "CAPPUCCINO - LACTO- FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9137,7 +9136,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "CAPPUCCINO - soya milk ",
+    "description": "CAPPUCCINO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9178,11 +9177,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-    "description": "CAPPUCCINO - coconut milk ",
+    "description": "CAPPUCCINO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9223,11 +9222,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-    "description": "CAPPUCCINO - almond milk ",
+    "description": "CAPPUCCINO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9268,11 +9267,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-    "description": "CAPPUCCINO - oat milk ",
+    "description": "CAPPUCCINO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -9313,11 +9312,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-    "description": "SPICED CAPPUCCINO - SEMI SKIMMED MILK ",
+    "description": "SPICED CAPPUCCINO - SEMI SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9362,7 +9361,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SPICED CAPPUCCINO - SKIMMED MILK ",
+    "description": "SPICED CAPPUCCINO - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9407,7 +9406,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SPICED CAPPUCCINO - WHOLE MILK ",
+    "description": "SPICED CAPPUCCINO - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9452,7 +9451,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SPICED CAPPUCCINO - LACTOFREE SEMI SKIMMED ",
+    "description": "SPICED CAPPUCCINO - LACTOFREE SEMI SKIMMED",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9497,7 +9496,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SPICED CAPPUCCINO - soya milk ",
+    "description": "SPICED CAPPUCCINO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -9542,7 +9541,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SPICED CAPPUCCINO - coconut milk ",
+    "description": "SPICED CAPPUCCINO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -9587,7 +9586,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SPICED CAPPUCCINO - almond milk ",
+    "description": "SPICED CAPPUCCINO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -9632,7 +9631,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "SPICED CAPPUCCINO - oat milk ",
+    "description": "SPICED CAPPUCCINO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -9677,7 +9676,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "FLAT WHITE - WHOLE MILK ",
+    "description": "FLAT WHITE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9722,7 +9721,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "FLAT WHITE - SEMI-SKIMMED MILK ",
+    "description": "FLAT WHITE - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9767,7 +9766,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "FLAT WHITE - SKIMMED MILK ",
+    "description": "FLAT WHITE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9812,7 +9811,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "FLAT WHITE - LACTO-FREE MILK DRINK ",
+    "description": "FLAT WHITE - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -9857,7 +9856,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "FLAT WHITE - soya milk ",
+    "description": "FLAT WHITE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -9902,7 +9901,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "FLAT WHITE - coconut milk ",
+    "description": "FLAT WHITE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -9947,7 +9946,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "FLAT WHITE - almond milk ",
+    "description": "FLAT WHITE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -9992,7 +9991,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "FLAT WHITE - oat milk ",
+    "description": "FLAT WHITE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -10037,7 +10036,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MOCHA - SEMI-SKIMMED MILK  ",
+    "description": "MOCHA - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10082,7 +10081,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MOCHA - SKIMMED MILK  ",
+    "description": "MOCHA - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10127,7 +10126,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MOCHA - WHOLE MILK  ",
+    "description": "MOCHA - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10172,7 +10171,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MOCHA - LACTO-FREE MILK DRINK  ",
+    "description": "MOCHA - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10217,7 +10216,7 @@ export const data = [
   },
   {
     "category": "Coffee",
-    "description": "MOCHA - soya milk  ",
+    "description": "MOCHA - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10258,11 +10257,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-    "description": "MOCHA - coconut milk  ",
+    "description": "MOCHA - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10303,11 +10302,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-    "description": "MOCHA - almond milk  ",
+    "description": "MOCHA - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10348,11 +10347,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Coffee",
-    "description": "MOCHA - oat milk  ",
+    "description": "MOCHA - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -10393,7 +10392,7 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
     "category": "Tea",
@@ -10712,7 +10711,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "HOT CHOCOLATE - SEMI-SKIMMED MILK ",
+    "description": "HOT CHOCOLATE - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10757,7 +10756,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "HOT CHOCOLATE - SKIMMED MILK  ",
+    "description": "HOT CHOCOLATE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10802,7 +10801,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "HOT CHOCOLATE - WHOLE MILK  ",
+    "description": "HOT CHOCOLATE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10847,7 +10846,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "HOT CHOCOLATE - LACTO-FREE MILK DRINK ",
+    "description": "HOT CHOCOLATE - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10892,7 +10891,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "HOT CHOCOLATE - soya milk  ",
+    "description": "HOT CHOCOLATE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10933,11 +10932,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "YES",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk of milk but confirmed no dairy present in product. Ask for no marshmallows or cream."
   },
   {
     "category": "Hot Chocolate",
-    "description": "HOT CHOCOLATE - coconut milk ",
+    "description": "HOT CHOCOLATE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -10978,11 +10977,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "YES",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk of milk but confirmed no dairy present in product. Ask for no marshmallows or cream."
   },
   {
     "category": "Hot Chocolate",
-    "description": "HOT CHOCOLATE - almond milk ",
+    "description": "HOT CHOCOLATE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11023,11 +11022,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "YES",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk of milk but confirmed no dairy present in product. Ask for no marshmallows or cream."
   },
   {
     "category": "Hot Chocolate",
-    "description": "HOT CHOCOLATE - oat milk ",
+    "description": "HOT CHOCOLATE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -11068,11 +11067,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "YES",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk of milk but confirmed no dairy present in product. Ask for no marshmallows or cream."
   },
   {
     "category": "Hot Chocolate",
-    "description": "WHITE HOT CHOCOLATE - SEMI-SKIMMED MILK ",
+    "description": "WHITE HOT CHOCOLATE - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11117,7 +11116,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "WHITE HOT CHOCOLATE - SKIMMED MILK ",
+    "description": "WHITE HOT CHOCOLATE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11162,7 +11161,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "WHITE HOT CHOCOLATE - WHOLE MILK ",
+    "description": "WHITE HOT CHOCOLATE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11207,7 +11206,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "WHITE HOT CHOCOLATE - LACTO-FREE MILK DRINK ",
+    "description": "WHITE HOT CHOCOLATE - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11252,7 +11251,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "WHITE HOT CHOCOLATE - soya milk ",
+    "description": "WHITE HOT CHOCOLATE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11297,7 +11296,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "WHITE HOT CHOCOLATE - coconut milk ",
+    "description": "WHITE HOT CHOCOLATE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11342,7 +11341,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "WHITE HOT CHOCOLATE - almond milk ",
+    "description": "WHITE HOT CHOCOLATE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11387,7 +11386,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "WHITE HOT CHOCOLATE - oat milk ",
+    "description": "WHITE HOT CHOCOLATE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -11432,7 +11431,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "RUBY COCOA HOT CHOCOLATE - SEMI-SKIMMED MILK ",
+    "description": "RUBY COCOA HOT CHOCOLATE - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11477,7 +11476,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "RUBY COCOA HOT CHOCOLATE - SKIMMED MILK ",
+    "description": "RUBY COCOA HOT CHOCOLATE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11522,7 +11521,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "RUBY COCOA HOT CHOCOLATE - WHOLE MILK ",
+    "description": "RUBY COCOA HOT CHOCOLATE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11567,7 +11566,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "RUBY COCOA HOT CHOCOLATE- LACTO-FREE MILK ",
+    "description": "RUBY COCOA HOT CHOCOLATE- LACTO-FREE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11612,7 +11611,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "RUBY COCOA HOT CHOCOLATE - soya milk ",
+    "description": "RUBY COCOA HOT CHOCOLATE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11657,7 +11656,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "RUBY COCOA HOT CHOCOLATE - coconut milk -",
+    "description": "RUBY COCOA HOT CHOCOLATE - COCONUT DRINK -",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11702,7 +11701,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "RUBY COCOA HOT CHOCOLATE - almond milk -",
+    "description": "RUBY COCOA HOT CHOCOLATE - ALMOND DRINK -",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11747,7 +11746,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "RUBY COCOA HOT CHOCOLATE - OAT MILK DRINK  ",
+    "description": "RUBY COCOA HOT CHOCOLATE - OAT MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -11792,7 +11791,7 @@ export const data = [
   },
   {
     "category": "Tea",
-    "description": "CHAI LATTE - SEMI SKIMMED MILK ",
+    "description": "CHAI LATTE - SEMI SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11837,7 +11836,7 @@ export const data = [
   },
   {
     "category": "Tea",
-    "description": "CHAI LATTE - SKIMMED MILK ",
+    "description": "CHAI LATTE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11882,7 +11881,7 @@ export const data = [
   },
   {
     "category": "Tea",
-    "description": "CHAI LATTE -  WHOLE MILK ",
+    "description": "CHAI LATTE -  WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -11972,7 +11971,7 @@ export const data = [
   },
   {
     "category": "Tea",
-    "description": "CHAI LATTE - soya milk ",
+    "description": "CHAI LATTE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -12017,7 +12016,7 @@ export const data = [
   },
   {
     "category": "Tea",
-    "description": "CHAI LATTE - coconut milk ",
+    "description": "CHAI LATTE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -12062,7 +12061,7 @@ export const data = [
   },
   {
     "category": "Tea",
-    "description": "CHAI LATTE - almond milk ",
+    "description": "CHAI LATTE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -12107,7 +12106,7 @@ export const data = [
   },
   {
     "category": "Tea",
-    "description": "CHAI LATTE - oat milk ",
+    "description": "CHAI LATTE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -12332,7 +12331,7 @@ export const data = [
   },
   {
     "category": "Hot Drink",
-    "description": "MILK BABYCCINO - soya milk",
+    "description": "MILK BABYCCINO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -12377,7 +12376,7 @@ export const data = [
   },
   {
     "category": "Hot Drink",
-    "description": "MILK BABYCCINO - coconut milk",
+    "description": "MILK BABYCCINO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -12422,7 +12421,7 @@ export const data = [
   },
   {
     "category": "Hot Drink",
-    "description": "MILK BABYCCINO - oat milk",
+    "description": "MILK BABYCCINO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -12647,7 +12646,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "MINI HOT CHOCOLATE WITH MARSHMALLOW - soya milk",
+    "description": "MINI HOT CHOCOLATE WITH MARSHMALLOW - SOYA MIlk",
     "vegetarians": "NO",
     "vegans": "NO",
     "wheat": "N",
@@ -12692,7 +12691,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "MINI HOT CHOCOLATE WITH MARSHMALLOW - coconut milk",
+    "description": "MINI HOT CHOCOLATE WITH MARSHMALLOW - COCONUT DRINK",
     "vegetarians": "NO",
     "vegans": "NO",
     "wheat": "N",
@@ -12737,7 +12736,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "MINI HOT CHOCOLATE WITH MARSHMALLOW - oat milk",
+    "description": "MINI HOT CHOCOLATE WITH MARSHMALLOW - OAT DRINK",
     "vegetarians": "NO",
     "vegans": "NO",
     "wheat": "C",
@@ -12962,7 +12961,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "MINI HOT CHOCOLATE WITH FLAKE - soya milk",
+    "description": "MINI HOT CHOCOLATE WITH FLAKE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -13007,7 +13006,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "MINI HOT CHOCOLATE WITH FLAKE - coconut milk",
+    "description": "MINI HOT CHOCOLATE WITH FLAKE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -13052,7 +13051,7 @@ export const data = [
   },
   {
     "category": "Hot Chocolate",
-    "description": "MINI HOT CHOCOLATE WITH FLAKE - oat milk",
+    "description": "MINI HOT CHOCOLATE WITH FLAKE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -13367,7 +13366,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED ESPRESSO MACCHIATO - soya milk - SOLO",
+    "description": "ICED ESPRESSO MACCHIATO - SOYA MIlk - SOLO",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -13412,7 +13411,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED ESPRESSO MACCHIATO - coconut milk - SOLO",
+    "description": "ICED ESPRESSO MACCHIATO - COCONUT DRINK - SOLO",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -13457,7 +13456,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED ESPRESSO MACCHIATO - almond milk -",
+    "description": "ICED ESPRESSO MACCHIATO - ALMOND DRINK -",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -13502,7 +13501,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED ESPRESSO MACCHIATO - oat milk",
+    "description": "ICED ESPRESSO MACCHIATO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -13727,7 +13726,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CORTADO - soya milk",
+    "description": "ICED CORTADO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -13772,7 +13771,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CORTADO - coconut milk",
+    "description": "ICED CORTADO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -13817,7 +13816,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CORTADO - almond milk",
+    "description": "ICED CORTADO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -13862,7 +13861,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CORTADO - oat milk",
+    "description": "ICED CORTADO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -14087,7 +14086,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA CORTADO - soya milk",
+    "description": "ICED MOCHA CORTADO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -14132,7 +14131,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA CORTADO - coconut milk",
+    "description": "ICED MOCHA CORTADO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -14177,7 +14176,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA CORTADO - almond milk",
+    "description": "ICED MOCHA CORTADO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -14222,7 +14221,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA CORTADO - oat milk",
+    "description": "ICED MOCHA CORTADO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -14267,7 +14266,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED AMERICANO BLACK ",
+    "description": "ICED AMERICANO BLACK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -14537,7 +14536,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CAPPUCCINO (SHAKEN) - WHOLE MILK ",
+    "description": "ICED CAPPUCCINO (SHAKEN) - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -14627,7 +14626,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CAPPUCCINO (SHAKEN) - soya milk ",
+    "description": "ICED CAPPUCCINO (SHAKEN) - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -14672,7 +14671,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CAPPUCCINO (SHAKEN) - coconut milk",
+    "description": "ICED CAPPUCCINO (SHAKEN) - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -14717,7 +14716,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CAPPUCCINO (SHAKEN) - MADE 12:12WITH almond milk",
+    "description": "ICED CAPPUCCINO (SHAKEN) - MADE WITH ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -14762,7 +14761,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CAPPUCCINO (SHAKEN) - oat milk ",
+    "description": "ICED CAPPUCCINO (SHAKEN) - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -14807,7 +14806,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE - SEMI-SKIMMED MILK ",
+    "description": "ICED LATTE - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -14852,7 +14851,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE - SKIMMED MILK ",
+    "description": "ICED LATTE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -14897,7 +14896,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE - WHOLE MILK ",
+    "description": "ICED LATTE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -14942,7 +14941,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE - LACTO - FREE MILK DRINK ",
+    "description": "ICED LATTE - LACTO - FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -14987,7 +14986,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE - soya milk ",
+    "description": "ICED LATTE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -15032,7 +15031,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE - coconut milk ",
+    "description": "ICED LATTE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -15077,7 +15076,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE - almond milk ",
+    "description": "ICED LATTE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -15122,7 +15121,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE - oat milk ",
+    "description": "ICED LATTE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -15167,7 +15166,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE BASE - SEMI-SKIMMED MILK ",
+    "description": "ICED LATTE BASE - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15212,7 +15211,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE BASE - SKIMMED MILK ",
+    "description": "ICED LATTE BASE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15257,7 +15256,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE BASE - WHOLE MILK ",
+    "description": "ICED LATTE BASE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15302,7 +15301,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE BASE - LACTO-FREE MILK DRINK ",
+    "description": "ICED LATTE BASE - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15347,7 +15346,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE BASE - soya milk ",
+    "description": "ICED LATTE BASE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -15392,7 +15391,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE BASE - coconut milk ",
+    "description": "ICED LATTE BASE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -15437,7 +15436,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE BASE - almond milk ",
+    "description": "ICED LATTE BASE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -15482,7 +15481,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED LATTE BASE FOR SPECIALITY LATTE - oat milk",
+    "description": "ICED LATTE BASE FOR SPECIALITY LATTE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -15527,7 +15526,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHAI LATTE - SEMI-SKIMMED MILK ",
+    "description": "ICED CHAI LATTE - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15572,7 +15571,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHAI LATTE - SKIMMED MILK ",
+    "description": "ICED CHAI LATTE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15617,7 +15616,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHAI LATTE - WHOLE MILK ",
+    "description": "ICED CHAI LATTE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15662,7 +15661,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHAI LATTE - LACTO-FREE MILK DRINK ",
+    "description": "ICED CHAI LATTE - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15707,7 +15706,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHAI LATTE - soya milk ",
+    "description": "ICED CHAI LATTE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15752,7 +15751,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHAI LATTE - coconut milk ",
+    "description": "ICED CHAI LATTE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15797,7 +15796,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHAI LATTE - almond milk ",
+    "description": "ICED CHAI LATTE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -15842,7 +15841,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHAI LATTE - oat milk ",
+    "description": "ICED CHAI LATTE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -15977,7 +15976,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED FLAT WHITE - MADE WITHWHOLE MILK",
+    "description": "ICED FLAT WHITE -WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16022,7 +16021,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHOCOLATE - SEMI SKIMMED MILK ",
+    "description": "ICED CHOCOLATE - SEMI SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16067,7 +16066,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHOCOLATE - SKIMMED MILK  ",
+    "description": "ICED CHOCOLATE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16112,7 +16111,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHOCOLATE - WHOLE MILK  ",
+    "description": "ICED CHOCOLATE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16157,7 +16156,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHOCOLATE - LACTOFREE SEM SKIMMED ",
+    "description": "ICED CHOCOLATE - LACTOFREE SEM SKIMMED",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16202,7 +16201,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHOCOLATE - soya milk  ",
+    "description": "ICED CHOCOLATE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16243,11 +16242,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk of milk but no dairy ingredients present."
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHOCOLATE - coconut milk ",
+    "description": "ICED CHOCOLATE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16288,11 +16287,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk of milk but no dairy ingredients present."
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHOCOLATE - almond milk ",
+    "description": "ICED CHOCOLATE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16333,11 +16332,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk of milk but no dairy ingredients present."
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED CHOCOLATE - oat milk ",
+    "description": "ICED CHOCOLATE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -16378,11 +16377,11 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "CC",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk of milk but no dairy ingredients present."
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA - SEMI-SKIMMED MILK ",
+    "description": "ICED MOCHA - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16427,7 +16426,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA - SKIMMED MILK ",
+    "description": "ICED MOCHA - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16472,7 +16471,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA - WHOLE MILK ",
+    "description": "ICED MOCHA - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16517,7 +16516,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA - LACTO-FREE MILK DRINK ",
+    "description": "ICED MOCHA - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16562,7 +16561,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA - soya milk ",
+    "description": "ICED MOCHA - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16607,7 +16606,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA - coconut milk ",
+    "description": "ICED MOCHA - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16652,7 +16651,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA - almond milk ",
+    "description": "ICED MOCHA - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16697,7 +16696,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "ICED MOCHA - oat milk ",
+    "description": "ICED MOCHA - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -16742,7 +16741,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "PEACH ICE TEA  ",
+    "description": "PEACH ICE TEA",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16787,7 +16786,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "STRAWBERRY ICE INFUSION  ",
+    "description": "STRAWBERRY ICE INFUSION",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -16832,7 +16831,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "STRAWBERRY MILK WHIP - MADEWITH SKIMMED MILK ",
+    "description": "STRAWBERRY MILK WHIP - MADEWITH SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16877,7 +16876,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "VANILLA MILK WHIP - SKIMMED MILK ",
+    "description": "VANILLA MILK WHIP - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16922,7 +16921,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COFFEE FROSTINO - SEMI-SKIMMED MILK ",
+    "description": "COFFEE FROSTINO - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -16967,7 +16966,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COFFEE FROSTINO - SKIMMED MILK ",
+    "description": "COFFEE FROSTINO - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17012,7 +17011,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COFFEE FROSTINO - WHOLE MILK  ",
+    "description": "COFFEE FROSTINO - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17057,7 +17056,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COFFEE FROSTINO - LACTO-FREE MILK DRINK ",
+    "description": "COFFEE FROSTINO - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17102,7 +17101,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COFFEE FROSTINO - soya milk  ",
+    "description": "COFFEE FROSTINO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -17147,7 +17146,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COFFEE FROSTINO - coconut milk ",
+    "description": "COFFEE FROSTINO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -17192,7 +17191,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COFFEE FROSTINO - almond milk ",
+    "description": "COFFEE FROSTINO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -17237,7 +17236,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COFFEE FROSTINO - oat milk  ",
+    "description": "COFFEE FROSTINO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -17282,7 +17281,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - SEMI-SKIMMED MILK ",
+    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17327,7 +17326,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "FROSTINO - SKIMMED MILK ",
+    "description": "FROSTINO - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17372,7 +17371,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - WHOLE MILK ",
+    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17417,7 +17416,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - LACTO-FREE MILK DRINK ",
+    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17462,7 +17461,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - soya milk ",
+    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17507,7 +17506,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - coconut milk ",
+    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17552,7 +17551,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - almond milk ",
+    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17597,7 +17596,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - oat milk ",
+    "description": "BELGIAN CHOCOLATE COFFEE FROSTINO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -17642,7 +17641,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - SEMI-SKIMMED MILK ",
+    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17687,7 +17686,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - SKIMMED MILK ",
+    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17732,7 +17731,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - WHOLE MILK ",
+    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17777,7 +17776,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - LACTO-FREE MILK DRINK ",
+    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17822,7 +17821,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - soya milk ",
+    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17867,7 +17866,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - coconut milk ",
+    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17912,7 +17911,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - almond milk ",
+    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -17957,7 +17956,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - oat milk ",
+    "description": "SALTED CARAMEL CRUNCH COFFEE FROSTINO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -18092,7 +18091,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE FROSTINO - WHOLE MILK ",
+    "description": "BELGIAN CHOCOLATE FROSTINO - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18182,7 +18181,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE FROSTINO - soya milk ",
+    "description": "BELGIAN CHOCOLATE FROSTINO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18227,7 +18226,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE FROSTINO - coconut milk",
+    "description": "BELGIAN CHOCOLATE FROSTINO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18272,7 +18271,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE FROSTINO - almond milk",
+    "description": "BELGIAN CHOCOLATE FROSTINO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18317,7 +18316,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "BELGIAN CHOCOLATE FROSTINO - oat milk ",
+    "description": "BELGIAN CHOCOLATE FROSTINO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -18362,7 +18361,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH FROSTINO - SEMI-SKIMMED MILK ",
+    "description": "SALTED CARAMEL CRUNCH FROSTINO - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18407,7 +18406,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH FROSTINO - SKIMMED MILK ",
+    "description": "SALTED CARAMEL CRUNCH FROSTINO - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18452,7 +18451,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH FROSTINO - WHOLE MILK ",
+    "description": "SALTED CARAMEL CRUNCH FROSTINO - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18497,7 +18496,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH FROSTINO - LACTO-FREE MILK DRINK ",
+    "description": "SALTED CARAMEL CRUNCH FROSTINO - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18542,7 +18541,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH FROSTINO - soya milk ",
+    "description": "SALTED CARAMEL CRUNCH FROSTINO - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18587,7 +18586,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH FROSTINO - coconut milk ",
+    "description": "SALTED CARAMEL CRUNCH FROSTINO - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18632,7 +18631,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH FROSTINO - almond milk ",
+    "description": "SALTED CARAMEL CRUNCH FROSTINO - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18677,7 +18676,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "SALTED CARAMEL CRUNCH FROSTINO - oat milk ",
+    "description": "SALTED CARAMEL CRUNCH FROSTINO - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -18722,7 +18721,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "STRAWBERRY FROSTINO WITH CREAM - SEMI-SKIMMED MILK ",
+    "description": "STRAWBERRY FROSTINO WITH CREAM - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18767,7 +18766,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "STRAWBERRY FROSTINO WITH CREAM - SKIMMED MILK ",
+    "description": "STRAWBERRY FROSTINO WITH CREAM - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18812,7 +18811,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "STRAWBERRY FROSTINO WITH CREAM - WHOLE MILK ",
+    "description": "STRAWBERRY FROSTINO WITH CREAM - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18857,7 +18856,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "STRAWBERRY FROSTINO WITH CREAM - LACTO-FREE MILK DRINK ",
+    "description": "STRAWBERRY FROSTINO WITH CREAM - LACTO-FREE MILK DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18902,7 +18901,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "STRAWBERRY FROSTINO WITH CREAM - soya milk ",
+    "description": "STRAWBERRY FROSTINO WITH CREAM - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18947,7 +18946,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "STRAWBERRY FROSTINO WITH CREAM - coconut milk ",
+    "description": "STRAWBERRY FROSTINO WITH CREAM - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -18992,7 +18991,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "STRAWBERRY FROSTINO WITH CREAM - almond milk ",
+    "description": "STRAWBERRY FROSTINO WITH CREAM - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -19037,7 +19036,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "STRAWBERRY FROSTINO WITH CREAM - oat milk ",
+    "description": "STRAWBERRY FROSTINO WITH CREAM - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "C",
@@ -19172,7 +19171,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COLD BREW COFFEE WHITE - SEMI-SKIMMED MILK ",
+    "description": "COLD BREW COFFEE WHITE - SEMI-SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -19217,7 +19216,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COLD BREW COFFEE WHITE - SKIMMED MILK ",
+    "description": "COLD BREW COFFEE WHITE - SKIMMED MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -19262,7 +19261,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COLD BREW COFFEE WHITE - WHOLE MILK ",
+    "description": "COLD BREW COFFEE WHITE - WHOLE MILK",
     "vegetarians": "YES",
     "vegans": "NO",
     "wheat": "N",
@@ -19352,7 +19351,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COLD BREW COFFEE WHITE - soya milk",
+    "description": "COLD BREW COFFEE WHITE - SOYA MIlk",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -19397,7 +19396,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COLD BREW COFFEE WHITE - coconut milk ",
+    "description": "COLD BREW COFFEE WHITE - COCONUT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -19442,7 +19441,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COLD BREW COFFEE WHITE - almond milk ",
+    "description": "COLD BREW COFFEE WHITE - ALMOND DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "N",
@@ -19487,7 +19486,7 @@ export const data = [
   },
   {
     "category": "Cold Drinks",
-    "description": "COLD BREW COFFEE WHITE - oat milk ",
+    "description": "COLD BREW COFFEE WHITE - OAT DRINK",
     "vegetarians": "YES",
     "vegans": "YES",
     "wheat": "C",
@@ -19666,7 +19665,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "VANILLA SYRUP",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -19711,7 +19710,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "ROASTED HAZELNUT SYRUP",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -19756,7 +19755,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "CARAMEL SYRUP",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -19801,7 +19800,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "CARAMEL SYRUP (SUGAR FREE)",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -19846,7 +19845,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "GINGERBREAD SYRUP (SUGAR FREE)",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -19891,7 +19890,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "WHIPPING CREAM",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -19936,7 +19935,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "LIGHT DAIRY SWIRL",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -19981,7 +19980,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "CHOCOLATE FLAKE",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -20026,7 +20025,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "MARSHMALLOW (PER PIECE)",
     "vegetarians": "NO",
     "vegans": "NO",
@@ -20071,7 +20070,7 @@ export const data = [
     "notes": "Contains gelatine."
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "CHAI SYRUP",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -20116,7 +20115,7 @@ export const data = [
     "notes": "Contains Honey."
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "GOMME SYRUP",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20161,7 +20160,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "BONFIRE  SYRUP",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20206,7 +20205,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "BLACK CHERRY SAUCE 2019",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20251,7 +20250,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "SALTED CARAMEL SAUCE",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -20296,7 +20295,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "WHITE CHOCOLATE SAUCE",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -20341,7 +20340,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "BELGIAN CHOCOLATE SAUCE",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -20386,7 +20385,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "IRISH COFFEE FLAVOUR SAUCE",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20431,7 +20430,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "STRAWBERRY PUREE",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20476,7 +20475,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "RED SHIMMER CHOCOLATE CURLS",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20521,7 +20520,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "CAPPUCCINO DUSTING",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -20566,7 +20565,7 @@ export const data = [
     "notes": "Cross-contamination risk of milk but no dairy ingredients present."
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "CARAMEL VERMICELLI",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20611,7 +20610,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "CINNAMON POWDER",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20656,7 +20655,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "FROSTINO BASE POWDER (PER SCOOP)",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20701,7 +20700,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "MINT SYRUP",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20746,7 +20745,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "STRAWBERRY SPRINKLE",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20791,7 +20790,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "LEMON SLICES",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -20836,7 +20835,7 @@ export const data = [
     "notes": "Beeswax and shellac used."
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "SPICED CAPPUCCINO DUSTING (PER SCOOP)",
     "vegetarians": "YES",
     "vegans": "YES",
@@ -20881,7 +20880,7 @@ export const data = [
     "notes": ""
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "HOT CHOCOLATE POWDER (PER SCOOP)",
     "vegetarians": "YES",
     "vegans": "NO",
@@ -20923,10 +20922,10 @@ export const data = [
     "animal-products": "NO",
     "cc-vegan": "YES",
     "vegan-status": "YES",
-    "notes": "No dairy ingredients."
+    "notes": "Cross-contamination risk  of milk but confirmed no dairy present in product."
   },
   {
-    "category": "Syrups and Extras",
+    "category": "Extras",
     "description": "RUBY COCOA HOT CHOCOLATE POWDER (PER SCOOP)",
     "vegetarians": "YES",
     "vegans": "NO",
