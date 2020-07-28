@@ -144,8 +144,13 @@
 						4px 4px 0 rgba(94, 34, 107, 1);
 		}
   }
+}
 
-  .wider-wrapper {
-     width: 90%;
+@media (max-width: 530px) {
+  h1 {
+    font-size: 1.4rem !important;
+  }
+	.filter-buttons-wrapper {
+    width: 90%;
   }
 }

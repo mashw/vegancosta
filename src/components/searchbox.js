@@ -7,16 +7,16 @@ const Searchbox = (props) => {
     useEffect(() => {
       const handleResize = () => {
         const newWidth = window.innerWidth;
-        if (newWidth < 430) {
-          console.log("smaller than 930");
-          let buttonWrapper = document.getElementById("buttons");
-          buttonWrapper.classList.add("wider-wrapper");
-        }
-        else {
-          console.log("larger or equal than 930");
-          let buttonWrapper = document.getElementById("buttons");
-          buttonWrapper.classList.remove("wider-wrapper");
-        }
+        // if (newWidth < 430) {
+        //   console.log("smaller than 930");
+        //   let buttonWrapper = document.getElementById("buttons");
+        //   buttonWrapper.classList.add("wider-wrapper");
+        // }
+        // else {
+        //   console.log("larger or equal than 930");
+        //   let buttonWrapper = document.getElementById("buttons");
+        //   buttonWrapper.classList.remove("wider-wrapper");
+        // }
         setWindowWidth(newWidth);
       };
 
@@ -30,7 +30,7 @@ const Searchbox = (props) => {
         <div className="searchbox">
         
             <form className="search-form">
-            <h1>Check if a Costa product is vegan...</h1>
+            <h1>Check a product...</h1>
                 <input className="search" id="search-box" onChange={props.debounce} type="text" placeholder="Start typing..." />
                 {/* <button type="submit">
                     <img src={require('../imgs/search.svg')} width="170" height="95" alt="Vegan Costa" />

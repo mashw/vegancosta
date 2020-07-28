@@ -14,14 +14,14 @@ function App() {
   const [ spinner, setSpinner ] = useState([]);
   let timeout;
   
-  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
-
 	const debounce = (e) => {
     setCards([]);
     setSpinner(true); 
 		clearTimeout(timeout);
 		setTimeout(() => {
-      document.getElementById("search-box").scrollIntoView({behavior: "smooth"});
+      if (window.innerWidth < 531) {
+        document.getElementById("search-box").scrollIntoView({behavior: "smooth", block: "start"})
+      }      
       getResults();
 		}, 1000);
 	};
@@ -66,7 +66,10 @@ function App() {
       setSpinner(false);
 			filteredArr = [];
 			elements = [];
-			setCards([]);
+      setCards([]);
+      if (window.innerWidth < 531) {
+        document.getElementById("top").scrollIntoView({behavior: "smooth", block: "start"})
+      }      
 		}
 	};
 
