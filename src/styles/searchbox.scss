@@ -59,12 +59,14 @@
 	.category-text {
 		color: #6d1f37;
 		font-family: "BrandonGrotesque-Regular";
-		font-weight: bold;
+    font-weight: bold;
+    text-align: center;
+    
 	}
 
 	.filter-buttons-wrapper {
 		margin-top: -15px;
-		width: 60%;
+		width: 70%;
 		//border: 1px solid red;
 		display: flex;
 		flex: row;
@@ -102,35 +104,35 @@
         }    
 	   
 		.hot-drinks {
-			background-color: rgba(16, 166, 130, 1);
-			box-shadow: 1px 1px 0 rgba(14, 140, 111, 1),
-						2px 2px 0 rgba(14, 140, 111, 1),
-						3px 3px 0 rgba(14, 140, 111, 1),
-						4px 4px 0 rgba(14, 140, 111, 1);
+			background-color: rgba(48, 159, 176, 1);
+			box-shadow: 1px 1px 0 rgba(39, 130, 144, 1),
+						2px 2px 0 rgba(39, 130, 144, 1),
+						3px 3px 0 rgba(39, 130, 144, 1),
+						4px 4px 0 rgba(39, 130, 144, 1);
 		}
 
 		.cold-drinks {
-			background-color: rgba(255, 82, 143, 1);
-			box-shadow: 1px 1px 0 rgba(181, 58, 101, 1),
-						2px 2px 0 rgba(181, 58, 101, 1),
-						3px 3px 0 rgba(181, 58, 101, 1),
-						4px 4px 0 rgba(181, 58, 101, 1);
+			background-color: rgba(78, 205, 196, 1);
+			box-shadow: 1px 1px 0 rgba(49, 175, 167, 1),
+						2px 2px 0 rgba(49, 175, 167, 1),
+						3px 3px 0 rgba(49, 175, 167, 1),
+						4px 4px 0 rgba(49, 175, 167, 1);
 		}
 
 		.cakes {
-			background-color: rgb(141, 160, 218);
-			box-shadow: 1px 1px 0 rgba(96, 89, 147, 1),
-						2px 2px 0 rgba(96, 89, 147, 1),
-						3px 3px 0 rgba(96, 89, 147, 1),
-						4px 4px 0 rgba(96, 89, 147, 1);
+			background-color: rgba(255, 107, 107, 1);
+			box-shadow: 1px 1px 0 rgba(255, 71, 71, 1),
+						2px 2px 0 rgba(255, 71, 71, 1),
+						3px 3px 0 rgba(255, 71, 71, 1),
+						4px 4px 0 rgba(255, 71, 71, 1);
 		}
 
 		.food {
-			background-color: rgba(207, 18, 63, 1);
-			box-shadow: 1px 1px 0 rgba(153, 14, 46, 1),
-						2px 2px 0 rgba(153, 14, 46, 1),
-						3px 3px 0 rgba(153, 14, 46, 1),
-						4px 4px 0 rgba(153, 14, 46, 1);
+			background-color: rgba(255, 214, 10, 1);
+			box-shadow: 1px 1px 0 rgba(245, 204, 0, 1),
+						2px 2px 0 rgba(245, 204, 0, 1),
+						3px 3px 0 rgba(245, 204, 0, 1),
+						4px 4px 0 rgba(245, 204, 0, 1);
 		}
 
 		
@@ -141,5 +143,9 @@
 						3px 3px 0 rgba(94, 34, 107, 1),
 						4px 4px 0 rgba(94, 34, 107, 1);
 		}
-	}
+  }
+
+  .wider-wrapper {
+     width: 90%;
+  }
 }
