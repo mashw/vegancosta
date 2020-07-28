@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.scss';
 import uuid from 'react-uuid';
 import { sortByVegan } from './util/helper-functions';
@@ -12,14 +12,17 @@ import { Card } from './components/card';
 function App() {
   const [ cards, setCards ] = useState([]);
   const [ spinner, setSpinner ] = useState([]);
-	let timeout;
+  let timeout;
+  
+  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
 	const debounce = (e) => {
     setCards([]);
-    setSpinner(true);    
+    setSpinner(true); 
 		clearTimeout(timeout);
 		setTimeout(() => {
-			getResults();
+      document.getElementById("search-box").scrollIntoView({behavior: "smooth"});
+      getResults();
 		}, 1000);
 	};
 
@@ -196,14 +199,15 @@ function App() {
 		<div className="Vegan Costa Coffee">
 			<Header />
 			<div className="main-content container">
-				<Searchbox
-					debounce={debounce}
-					getHotDrinks={getHotDrinks}
-					getColdDrinks={getColdDrinks}
-					getCakes={getCakes}
-					getFood={getFood}
-				/>
-				<div className="card-container">
+          <Searchbox
+            debounce={debounce}
+            getHotDrinks={getHotDrinks}
+            getColdDrinks={getColdDrinks}
+            getCakes={getCakes}
+            getFood={getFood}
+          />
+
+				<div className="card-container" id="cards">
           {spinner === true ? <img className="loading-spinner" src={require('../src/imgs/loading.gif')} alt="Loading"></img> : <span></span>}
 					{cards}
 					{/* {trail.map(({ x, height, ...rest }, index) => (

@@ -31,7 +31,7 @@ const Searchbox = (props) => {
         
             <form className="search-form">
             <h1>Check if a Costa product is vegan...</h1>
-                <input className="search" onChange={props.debounce} type="text" placeholder="Start typing..." />
+                <input className="search" id="search-box" onChange={props.debounce} type="text" placeholder="Start typing..." />
                 {/* <button type="submit">
                     <img src={require('../imgs/search.svg')} width="170" height="95" alt="Vegan Costa" />
                 </button> */}
