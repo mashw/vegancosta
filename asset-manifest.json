@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vegancosta/static/css/main.2bf468fa.chunk.css",
-    "main.js": "/vegancosta/static/js/main.838de292.chunk.js",
-    "main.js.map": "/vegancosta/static/js/main.838de292.chunk.js.map",
+    "main.js": "/vegancosta/static/js/main.0400b85d.chunk.js",
+    "main.js.map": "/vegancosta/static/js/main.0400b85d.chunk.js.map",
     "runtime-main.js": "/vegancosta/static/js/runtime-main.ba1b97ee.js",
     "runtime-main.js.map": "/vegancosta/static/js/runtime-main.ba1b97ee.js.map",
     "static/js/2.81f75995.chunk.js": "/vegancosta/static/js/2.81f75995.chunk.js",
     "static/js/2.81f75995.chunk.js.map": "/vegancosta/static/js/2.81f75995.chunk.js.map",
     "index.html": "/vegancosta/index.html",
-    "precache-manifest.5004a4b8defba0b83a966fe2ce67366d.js": "/vegancosta/precache-manifest.5004a4b8defba0b83a966fe2ce67366d.js",
+    "precache-manifest.c0d0476d6aa6024a1a8f6a8572ca620d.js": "/vegancosta/precache-manifest.c0d0476d6aa6024a1a8f6a8572ca620d.js",
     "service-worker.js": "/vegancosta/service-worker.js",
     "static/css/main.2bf468fa.chunk.css.map": "/vegancosta/static/css/main.2bf468fa.chunk.css.map",
     "static/js/2.81f75995.chunk.js.LICENSE.txt": "/vegancosta/static/js/2.81f75995.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.ba1b97ee.js",
     "static/js/2.81f75995.chunk.js",
     "static/css/main.2bf468fa.chunk.css",
-    "static/js/main.838de292.chunk.js"
+    "static/js/main.0400b85d.chunk.js"
   ]
 }
