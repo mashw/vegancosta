@@ -20,6 +20,7 @@ function App() {
 		clearTimeout(timeout);
 		setTimeout(() => {
       if (window.innerWidth < 531) {
+        document.activeElement.blur();
         document.getElementById("search-box").scrollIntoView({behavior: "smooth", block: "start"})
       }      
       getResults();
