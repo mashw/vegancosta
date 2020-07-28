@@ -19,10 +19,10 @@ function App() {
     setSpinner(true); 
 		clearTimeout(timeout);
 		setTimeout(() => {
-      if (window.innerWidth < 531) {
-        document.activeElement.blur();
+      if (window.innerWidth < 531) {        
         document.getElementById("search-box").scrollIntoView({behavior: "smooth", block: "start"})
-      }      
+      }
+      document.activeElement.blur();
       getResults();
 		}, 1000);
 	};
