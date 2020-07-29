@@ -236,7 +236,7 @@ background-color: rgb(173, 173, 173);
 
 
 .nutritional-wrapper {
-  //border: 2px solid hotpink;
+  border: 2px dashed blue;
   color: #eee;
   width: 100%;
   padding: 0;
@@ -245,14 +245,15 @@ background-color: rgb(173, 173, 173);
   flex-direction: column;
   flex: 1;
   align-items: center;
+  max-height: 21px;
   cursor: pointer;
   outline: none;
-  max-height: 20px;
   border-left: 1px solid #c9c9c9;
   border-right: 1px solid #c9c9c9;
   z-index: 3;
 
   .more-info-header {
+    border: 1px solid red;
     background-color: #6D1F37;
     width: 100%;
     margin-bottom: 5px;
@@ -273,9 +274,10 @@ background-color: rgb(173, 173, 173);
 
 .table-wrapper {  
   width: 60%;
-  height: 100%;
+  height: 314px;
   justify-content: center;
   color: black;
+  border: 1px dashed green;
 
 
   table {
