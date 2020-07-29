@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d8b5490b68e0e7a834c887e2aaf67b36",
+    "revision": "9b342ab09acf30bac249c9794a6c1e74",
     "url": "/vegancosta/index.html"
   },
   {
-    "revision": "94e66cdbefc20b17c975",
-    "url": "/vegancosta/static/css/main.23e40d50.chunk.css"
+    "revision": "99e26b248d866a1c769f",
+    "url": "/vegancosta/static/css/main.9fef87a1.chunk.css"
   },
   {
     "revision": "853d0fccdbafb9e733b4",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vegancosta/static/js/2.81f75995.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94e66cdbefc20b17c975",
+    "revision": "99e26b248d866a1c769f",
     "url": "/vegancosta/static/js/main.4a3877bc.chunk.js"
   },
   {
