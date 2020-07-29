@@ -148,7 +148,8 @@ export const Card = (props) => {
 			</div>
 			<div className="nutritional-wrapper noSelect" onClick={() => expandDiv(props.indexKey)}>
 				<div className="more-info-header noSelect">
-					<h4>Nutritional Info {infoState === false ? downArrow : upArrow}</h4>
+					{/* <h4>Nutritional Info {infoState === false ? downArrow : upArrow}</h4> */}
+          <span>Nutritional Info</span>
 				</div>
 				<div className="table-wrapper">
 					<table>
