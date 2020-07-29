@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vegancosta/static/css/main.f31b2708.chunk.css",
+    "main.css": "/vegancosta/static/css/main.23e40d50.chunk.css",
     "main.js": "/vegancosta/static/js/main.4a3877bc.chunk.js",
     "main.js.map": "/vegancosta/static/js/main.4a3877bc.chunk.js.map",
     "runtime-main.js": "/vegancosta/static/js/runtime-main.ba1b97ee.js",
@@ -8,9 +8,9 @@
     "static/js/2.81f75995.chunk.js": "/vegancosta/static/js/2.81f75995.chunk.js",
     "static/js/2.81f75995.chunk.js.map": "/vegancosta/static/js/2.81f75995.chunk.js.map",
     "index.html": "/vegancosta/index.html",
-    "precache-manifest.2905a3de429b38266c4728d2612c1d6d.js": "/vegancosta/precache-manifest.2905a3de429b38266c4728d2612c1d6d.js",
+    "precache-manifest.3152af8c56e9b6cb16aa897449f3e375.js": "/vegancosta/precache-manifest.3152af8c56e9b6cb16aa897449f3e375.js",
     "service-worker.js": "/vegancosta/service-worker.js",
-    "static/css/main.f31b2708.chunk.css.map": "/vegancosta/static/css/main.f31b2708.chunk.css.map",
+    "static/css/main.23e40d50.chunk.css.map": "/vegancosta/static/css/main.23e40d50.chunk.css.map",
     "static/js/2.81f75995.chunk.js.LICENSE.txt": "/vegancosta/static/js/2.81f75995.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/vegancosta/static/media/toasties.ab44725d.svg",
     "static/media/coffee.svg": "/vegancosta/static/media/coffee.e71dbd44.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.ba1b97ee.js",
     "static/js/2.81f75995.chunk.js",
-    "static/css/main.f31b2708.chunk.css",
+    "static/css/main.23e40d50.chunk.css",
     "static/js/main.4a3877bc.chunk.js"
   ]
 }
