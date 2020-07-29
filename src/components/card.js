@@ -126,14 +126,14 @@ export const Card = (props) => {
 				</div>
 				<div className="tags-wrapper">
 				{props.value['vegan-status'] === 'YES' || props.value['vegan-status'] === 'CC' ? (
-						<span className={`vegan-tag`}>VEGAN</span>
+						<div className={`vegan-tag`}>VEGAN</div>
 					) : null}
 
-					{props.value.vegetarians === 'YES' ? <span className="vegetarian-tag">VEGETARIAN</span> : null}
+					{props.value.vegetarians === 'YES' ? <div className="vegetarian-tag">VEGETARIAN</div> : null}
 
-					{getNutStatus(props) === true ? <span className="nuts-tag">NUTS</span> : null}
+					{getNutStatus(props) === true ? <div className="nuts-tag">NUTS</div> : null}
 
-					{props.value.wheat === 'YES' ? <span className="gluten-tag">GLUTEN</span> : null}
+					{props.value.wheat === 'YES' ? <div className="gluten-tag">GLUTEN</div> : null}
 				</div>
 				<div className="status-notes-main-wrapper">
 				<div className="status-wrapper">
