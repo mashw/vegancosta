@@ -258,11 +258,13 @@ background-color: rgb(173, 173, 173);
     width: 100%;
     margin-bottom: 5px;
     display: flex;
+    min-height: 21px;
     height: 21px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    span {     
+    span {    
+    min-height: 21px; 
     margin: 0;
     padding: 0;
     font-size: 0.9rem;
