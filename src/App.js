@@ -24,7 +24,7 @@ function App() {
       }
       document.activeElement.blur();
       getResults();
-		}, 1000);
+		}, 2000);
 	};
 
 	const getResults = () => {    
