@@ -53,3 +53,9 @@ background-size: 500px;
   font-family: 'Clarendon';
   src: url('./fonts/ClarendonRegular.woff') format('woff')
 }
+
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: 100%;
+  }
+}
